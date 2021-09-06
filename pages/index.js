@@ -22,8 +22,19 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! I'm Travis, a web development specialist who loves React. When i'm
-          not coding I love to ski, hike and read fantasy and sci-fi books.
+          Hi! I'm Travis, a web-development specialist who loves React. When I'm
+          not coding I love skiing (poorly), hiking and digging into a good
+          book. My biggest claim to fame is building Job Step Viewer, a
+          visualization tool designed for Summit, the world's most powerful
+          supercomputer.
+        </p>
+
+        <p>
+          To read more about job step viewer check out
+          <br />
+          <a href="https://www.olcf.ornl.gov/2020/03/27/new-job-step-viewer-tool-captures-job-launching-on-summit/">
+            https://www.olcf.ornl.gov/2020/03/27/new-job-step-viewer-tool-captures-job-launching-on-summit/
+          </a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
