@@ -18,6 +18,6 @@ export const comments = [
     post_id: "mt-leconte",
     author: "John Smith",
     date: "September 12, 2021",
-    text: "My family and I stay at the lodge every year in the fall. Such an amazing experience!",
+    text: "The view at the top really is one of the best in the park. Well worth the wait",
   },
 ];
