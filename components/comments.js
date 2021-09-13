@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./comments.module.css";
 
 export default function Comments(props) {
   const [comments, setComments] = useState([]);
@@ -21,11 +22,12 @@ export default function Comments(props) {
       <button onClick={fetchComments}>Show comments</button>
       {comments.map((comment) => {
         return (
-          <div key={comment.id}>
-            <p>
-              {comment.author} {comment.date}
-            </p>
-            <p>{comment.text}</p>
+          <div className={styles.comments} key={comment.id}>
+            <div className={styles.header}>
+              <div className={styles.author}>{comment.author}</div>
+              <div className={styles.date}>{comment.date}</div>
+            </div>
+            <div className={styles.text}>{comment.text}</div>
           </div>
         );
       })}

@@ -1,0 +1,26 @@
+.comments {
+  margin-top: 0.5rem;
+}
+.header {
+  display: flex;
+}
+.date {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  font-size: small;
+  color: darkgray;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.text {
+  margin-left: 1rem;
+  font-size: medium;
+}
