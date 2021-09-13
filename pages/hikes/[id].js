@@ -1,5 +1,5 @@
 import Layout from "../../components/layout";
-import Image from "next/image";
+import Comments from "../../components/comments";
 import { getAllHikeIds, getHikeData } from "../../lib/hikes";
 import Head from "next/head";
 
@@ -35,6 +35,7 @@ export default function Hike({ hikeData }) {
       <p>Distance: {hikeData.distance} miles</p>
 
       <div dangerouslySetInnerHTML={{ __html: hikeData.contentHtml }} />
+      <Comments post_id={hikeData.id}></Comments>
     </Layout>
   );
 }
