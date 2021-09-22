@@ -22,6 +22,7 @@ export default function Comments(props) {
       },
     });
     const data = await response.json();
+    fetchComments();
     console.log(data);
   };
 
