@@ -24,3 +24,20 @@
   margin-left: 1rem;
   font-size: medium;
 }
+
+.comment_input {
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.show_comments {
+  padding-left: 0;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.button1:hover {
+  color: gray;
+}
